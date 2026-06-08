@@ -65,8 +65,8 @@ PAD_MS = 80
 # Too large a sigma will attenuate genuine fast pupil responses.
 GAUSSIAN_SIGMA = None   # set by user (samples)
 
-# Baseline window (s): first 20 seconds of the basal condition.
-BASELINE_WINDOW_S = 20
+# Baseline window (s): first 2 seconds of the basal condition.
+BASELINE_WINDOW_S = 2
 
 # Outlier detection threshold (z-score on per-participant mean AUC).
 # Participants whose mean AUC exceeds this z-score are excluded from group figures.
