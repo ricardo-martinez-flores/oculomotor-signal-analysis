@@ -3,7 +3,7 @@
 # Pupillometry preprocessing pipeline -- Cogni-Action project
 # Pupillary dynamics during reading comprehension in adolescents
 #
-# Eye-tracker: Tobii (33 Hz)
+# Eye-tracker: Tobii (300 Hz)
 # Signal: pupil diameter in pixels, converted via calibration to mm
 # Validity: Tobii validity codes (0 = valid, >0 = invalid)
 #
@@ -78,7 +78,7 @@ SIGMA_SAMP   = SIGMA_MS / 1000 * FS         if SIGMA_MS  is not None else None
 
 # Baseline window: pre-reading fixation cross duration (ms).
 # Adjust to match your experimental timing.
-BASELINE_MS  = 2000
+BASELINE_MS  = 200
 
 # Physiological pupil range (mm). Values outside are artifacts.
 PUPIL_MIN_MM = 2.0
